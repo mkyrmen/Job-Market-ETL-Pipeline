@@ -1,0 +1,11 @@
+# Optional dependencies — not required for the core ETL.
+
+# Browser-based fallback extraction (Selenium collector)
+selenium>=4.20
+webdriver-manager>=4.0
+
+# Direct PostgreSQL loader (alternative to the Supabase REST loader)
+psycopg[binary]>=3.2
+
+# Development / testing
+pytest>=8.0
